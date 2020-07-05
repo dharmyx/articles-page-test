@@ -603,7 +603,7 @@ div.small--image4 {
 }
 @media (max-width: 320px) {
     div.menu-wrap {
-        right: 5.1rem;
+        right: 4.5rem;
     }
     p.menutext > a {
         font-size: .7rem;
