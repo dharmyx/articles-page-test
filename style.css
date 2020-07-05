@@ -15,7 +15,7 @@ body {
 
 main {
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     background-color: #ffffff;
     margin: 5rem auto 0;
@@ -373,7 +373,7 @@ div.small--image4 {
     div.menu-wrap {
         position: absolute;
         top: 2rem;
-        right: 9rem;
+        right: 6.5rem;
         z-index: 1;
     }
 
@@ -397,7 +397,6 @@ div.small--image4 {
         height: 45px;
         padding: .8rem;
         background: rgb(14, 23, 49, .01);
-        border: 1px solid #ffffff;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -489,7 +488,7 @@ div.small--image4 {
 
     .menu-wrap .menu>div>div {
         text-align: center;
-        max-width: 50vw;
+        max-width: 100%;
         max-height: 100vh;
         opacity: 0;
         transition: opacity 0.5s ease;
@@ -537,14 +536,17 @@ div.small--image4 {
         flex-direction: column;
     }
     div.menu-wrap {
-        right: 9rem;
+        right: 6rem;
     }
 }
 
 @media (max-width: 600px) {
     div.menu-wrap {
-        right: 7.5rem;
+        right: 5.5rem;
     }
+    p.menutext > a {
+        font-size: .8rem;
+   }
 }
 
 @media (max-width: 425px) {
@@ -556,7 +558,7 @@ div.small--image4 {
         height: 250px;
     }
     div.menu-wrap {
-        right: 6rem;
+        right: 5.5rem;
     }
     article.content {
         margin: 20px 20px 50px;
@@ -579,6 +581,9 @@ div.small--image4 {
     div.menu-wrap {
         right: 5.5rem;
     }
+    p.menutext > a {
+        font-size: .7rem;
+   }
     p.medium--text {
         font-size: .85rem;
     }
@@ -598,8 +603,12 @@ div.small--image4 {
 }
 @media (max-width: 320px) {
     div.menu-wrap {
-        right: 5rem;
+        right: 5.1rem;
     }
+    p.menutext > a {
+        font-size: .7rem;
+        margin: 5px;
+   }
     h1.label {
         font-size: 1.9rem;
     }
