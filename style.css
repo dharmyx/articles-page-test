@@ -27,6 +27,7 @@ main {
 .menu {
     display: none;
 }
+
 header.heading--content {
     width: auto;
     height: 80px;
@@ -508,6 +509,9 @@ div.small--image4 {
         text-align: center;
         text-transform: uppercase;
     }
+    .fab, .far, .fas {
+        font-size: 1.1rem;
+    }
 
     .menu-wrap .menu>div>div>ul>li>a {
         text-decoration: none;
@@ -528,7 +532,7 @@ div.small--image4 {
     h1.label {
         font-size: 2.5rem;
         font-family: 'Montserrat', sans-serif;
-        margin: 80px 20px 20px;
+        margin: 50px 20px 20px;
     }
 }
 
@@ -567,7 +571,7 @@ div.small--image4 {
 @media (max-width: 425px) {
     h1.label {
         font-size: 2rem;
-        margin: 50px 20px 20px;
+        margin: 30px 20px 20px;
     }
     div.big--image {
         height: 250px;
