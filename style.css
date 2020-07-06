@@ -365,8 +365,10 @@ div.small--image4 {
     }
     /* HAMBURGER MENU */
 
-    header.heading--content,
     header.sub-heading--content {
+        display: none;
+    }
+    div.primary--heading {
         display: none;
     }
 
@@ -543,6 +545,19 @@ div.small--image4 {
 @media (max-width: 600px) {
     div.menu-wrap {
         right: 5.5rem;
+    }
+    div.secondary--heading {
+        width: 60%;
+        justify-content: space-evenly;
+    }
+    p.txt > a.btn-logIn {
+        padding: 5px 8px;
+        font-size: .8rem;
+    }
+    p.txt > a.btn-getStarted {
+        padding: 5px 8px;
+        font-size: .8rem;
+        margin: 0 5px;
     }
     p.menutext > a {
         font-size: .8rem;
